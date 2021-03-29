@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* Importando font do google */
+@import url('htps://fonts.googleapis.com/css?family=Allerta|Cantarell|Titillium+Web');
+
+/* formatando font geral */
+body {
+    font-family: 'Titillium Web', sans-serif;
+    color: #000050;
+    background-color: #e5e5ff;
+    margin: 0px auto 0px auto;
+}
+
+/* interface parte branca */
+div#interface section#corpo {
+    width: 800px;
+    position: absolute;
+    background-color: #e5e5ff;
+    margin: 0px 20px 20px 280px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5); /* sombra da interface*/
+}

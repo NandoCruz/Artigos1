@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- Este é o meu primeiro artigo que estou criando sobre Variáveis 29/03/2021 -->
+<html lang="bt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Artigo sobre Variaveis</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilo.css"/>
+    </head>
+    <body>
+        <div id="interface">
+            <header id="cabecalho">
+                <h2 id=nome>Fernando Cruz</h2>
+                <img id="foto1" src="imagens/fernando3.jpg"/>
+            </header>
+            <section id="corpo">
+                <img id="foto1" src="imagens/variáveis.jpg"/>
+                <aside id="lateral">
+                    <h1>Saiba como declarar uma variável de forma correta evitando erro em Kotlin.</h1>
+
+                       <p> Para criar uma variável é muito simples, mas você sabe quando de fato usar o VAR, VAL e o CONST VAL em Kotlin?</p>
+                        Veja neste artigo como usar corretamente evitando erro em seu código.</p>
+                        <p>O que você precisa saber de Variável?</p>
+                        <p>Os tipos de dados que existem atualmente são: Int, Long, Float, Double, Boolean, Char, Byte, Short, Null! ou Array.</p>
+                        <p>Todo valor que é dado a uma String tem que ser colocada entre aspas duplas (“”) ou aspas simples (‘’) se você já estiver usando aspas duplas, caso contrário dará erro de sintaxe.</p>
+                        <p>Os dois pontos (:) após o nome da variável é para separar a variável do seu tipo identificado explicitamente. Caso não seja declarado explicitamente o tipo de variável, esse será identificado automaticamente como inteiro (Int).</p>
+                        <p>A dica muito boa que eu recomendo é: “Sempre que possível comentar suas linhas de código”, para que você e outras pessoas possam ser orientadas e saberem o que vai acontecer naquele trecho ou o que será esperado naquele código como: saber o que a função vai fazer, qual resultado será esperado, onde ela termina entre outras coisas que você pode informar.</p>
+                        <p>Quando usar o Var, Val e o Const Val?</p>
+                        <p>Cada palavra reservada dessa é utilizada em momento diferente, veja em que momento ela pode ser usada de maneira correta.</p>
+                        
+                        <h2>VAR</h2>
+                        
+                        <p>É uma palavra reservada onde tem seu valor mutável, ou seja, o valor da variável poderá ser consultado ou alterado durante a compilação através de código. Usando o padrão de nomenclatura camelCase (nome com mais de uma palavra é iniciada com letra minúscula e a partir da segunda palavra será iniciada por maiúsculas sem espaço entre as palavras) conhecida com camelo, pois se parece com as curvas de altos e baixos que o camelo tem, dessa forma você dará um nome a sua variável.</p>
+                        <p>Composição da criação de uma variável do tipo String:</p>
+                        <p>Palavra reservada (var) nome da variável (nomeCliente): tipo da variável (String) = valor da variável (“Fernando Cruz”) // comentário caso necessário</p>
+                        <p>Exemplo de variável do tipo String:</p>
+                        <p>var nomeCliente: String = “Fernando Cruz” // Declarando variável do tipo String.</p>
+                        <p>Exemplo de variável do tipo Inteiro ou Int:</p>
+                        <p>var numero: Int = 25 // Declarando variável do tipo Inteiro ou Int.</p>
+                        <p>Na variável do tipo Int não se coloca aspas. Caso você não identifique o tipo da variável explicitamente, será automaticamente reconhecida como inteiro (Int).</p>
+                        
+                        <h2>VAL</h2>
+                        
+                        <p>É uma palavra reservada onde tem seu valor imutável, ou seja, a variável não pode ter seu valor alterado durante o código, usa também o padrão camelCase para dar nome a variável.</p>
+                        <p>Composição da criação de uma variável do tipo String:</p>
+                        <p>Palavra reservada (val) nome da variável (numCep): tipo da variável (String) = valor da variável (“123.456.789-04”) // comentário caso necessário</p>
+                        <p>Exemplo de variável do tipo String:</p>
+                        <p>val numCep:String = “123.456.789-04” // Declarando variável do tipo String.</p>
+                        <p>A variável numCep está recebendo o tipo String, porque seu valor não é só numérico, está levando números e caracteres.</p>
+                        <p>val idade = 25 // Declarando variável do tipo Inteiro ou Int.</p>
+                        <p>A variável idade está recebendo o tipo Int, porque não foi declarado explicitamente o seu tipo e como esse valor não sofrerá alterações cada vez que o código rodar, usa-se a palavra reservada val.</p>
+                        
+                        <h2>CONST VAL</h2>
+
+                        <p>É uma palavra reservada onde tem seu valor imutável, usando o padrão SNAKE_CASE, ou seja, todas as palavras maiúsculas sendo separadas por hífen. O const val não pode ser usado dentro da função, O const val só poderá ser consultado e não modificado.</p>
+                        <p>Composição da criação de uma variável:</p>
+                        <p>Palavra reservada (const val) nome da variável (MAX_AGE) = valor da variável (16) // comentário caso necessário</p>
+                        <p>Exemplo de variável MAX_AGE:</p>
+                        <p>const val MAX_AGE = 16 // Declarando variável MAX_AGE que retorna o valor mínimo 16.</p>
+                        
+                        <p>Então agora você já sabe como criar uma variável e qual o melhor momento de usar as palavras reservadas var, val, const val.</p>
+                        <p>Me siga nas redes sociais e deixe seu comentário.</p>
+                </aside>
+                <section id="rede-social">
+                    <a href="https://github.com/NandoCruz" target="_blank">&nbsp;GitHub&nbsp;</a>
+                    <a href="https://www.linkedin.com/feed" target="_blank">&nbsp;Linkedin&nbsp;</a>
+                    <a href="https://www.instagram.com/fernandocruz2408" target="_blank">&nbsp;Instagram&nbsp;</a>
+
+                </section>
+            </section>
+
+        </div>
+    </body>
+</html>
