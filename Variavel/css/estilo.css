@@ -5,7 +5,7 @@
 /* formatando font geral */
 body {
     font-family: 'Titillium Web', sans-serif;
-    color: #000050;
+    color: #424242;
     background-color: #e5e5ff;
     margin: 0px auto 0px auto;
 }
@@ -30,13 +30,13 @@ header#cabecalho section#rede-social {
     margin-left: 17px;
     margin-top: 290px;
     text-align: center;
-    color: #000050;
-    background-color: #e5e5ff;
-    box-shadow: 3px 3px 3px rgba(0, 0, 80, .5);
+    color: #000000;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .5);
 }
 
 header#cabecalho section#rede-social a{
-    font-weight: #000050;
+    font-weight: #000000;
     text-decoration: none;
 }
 
@@ -48,7 +48,38 @@ header#cabecalho section#rede-social a:hover{
 div#interface section#corpo {
     width: 800px;
     position: absolute;
-    background-color: #e5e5ff;
+    background-color: #ffffff;
     margin: 20px 0px auto 290px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5); /* sombra da interface*/
+}
+
+/* texto do artigo */
+aside#lateral p{
+    margin: 20px;
+    text-align: justify;
+    color: #424242;
+}
+
+aside#lateral h1{
+    font-size: 26pt;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #008DD0;
+}
+
+aside#lateral h2{
+    font-size: 16pt;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #008DD0;
+}
+
+aside#lateral h3{
+    font-size: 16pt;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #424242;
 }
